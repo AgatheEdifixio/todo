@@ -1,7 +1,36 @@
+.container {
+    width: 400px;
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+.containerInputTask{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputTask {
+    width: 300px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+
 .task.done .content {
     text-decoration: line-through;
 }
 
+.content {
+    margin: 0px 10px 0px 10px;
+}
+
 .task {
     display: flex;
+    align-items: baseline;
 }

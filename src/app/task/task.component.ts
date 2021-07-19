@@ -32,14 +32,13 @@ export class TaskComponent implements OnInit {
     this.tasks = this.tasks.filter((v: any, i: any) => i !== id)
   }
 
-  addTask(){
+  addTask() {
     this.tasks.push({
       content: this.inputTask,
       completed: false
     });
-
+    
     this.inputTask = "";
-
   }
 
 }
