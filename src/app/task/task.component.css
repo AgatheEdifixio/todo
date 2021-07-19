@@ -1,0 +1,7 @@
+.task.done .content {
+    text-decoration: line-through;
+}
+
+.task {
+    display: flex;
+}
